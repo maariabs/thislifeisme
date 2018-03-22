@@ -111,3 +111,9 @@ blockquote {
     border: 0px;
 }
     
+footer {
+    display: block;
+    width: 100%;
+    background-color: azure;
+    padding: 40px;   
+}
