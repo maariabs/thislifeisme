@@ -1,7 +1,14 @@
+/* Page wrapper */
+.container {
+    width: 1200px;
+}
+
+
+
 /* Navigation bar */
 .nav {
-    background-color: #ffffff;
-    width: 98%;
+    background-color:s #ffffff;
+    width: 100%;
     padding: 5px;
     display: inline-block;
     margin: 0px;
@@ -97,15 +104,14 @@ blockquote {
 .picturegallery {
     display: inline-block;
     margin: 0px;
-    padding-left: 104px;
+    padding-left: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
 /* About me site */
 #aboutimage {
-    float: left;
-    width: 700px;
+    float: right;
     padding: 0px;
     margin-left: 25px;
     border: 0px;
@@ -132,5 +138,52 @@ p#footertext {
     font-weight: 400;
     font-size: 10px;
     text-align: left;
+    
+}
+
+@media only screen and (max-width: 480px) { 
+    .picturegallery   {  
+        display: block;
+        margin-left: 45px;
+                        
+        }
+    .nav {
+    width: 450px;
+    padding: 2px;
+    display: inline-block;
+    margin: 0px;
+        }
+    
+    ul.nav {
+    list-style: none;
+    padding: 10px;
+
+}
+    ul.nav li{
+    display: inline;
+    padding: 10px;
+    width: 450px;
+    font-size: 10px;
+    font-weight: 400;
+ 
+    }
+    
+h1 {
+	line-height: 1px;
+    margin-left: -20px;
+}
+
+h2 {
+	line-height: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+    
+    footer {
+    display: block;
+    width: 450px;
+    padding: 40px;
+}
     
 }
