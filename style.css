@@ -57,7 +57,7 @@ a:active {
 /* Header */
 .header {
     background-color: #ffffff;
-    width: 98%;
+    width: 100%;
     padding: 25px;
     margin: 0px;
 }
@@ -141,6 +141,7 @@ p#footertext {
     
 }
 
+/* Smartphones max 480px */
 @media only screen and (max-width: 480px) { 
     .picturegallery   {  
         display: block;
@@ -185,5 +186,55 @@ h2 {
     width: 450px;
     padding: 40px;
 }
+    
+}
+
+/* Tablet view min 480px - max 961 */
+@media all and (max-width: 961px min-width: 481px) { 
+    
+    .picturegallery   {  
+        display: inline-block;
+        margin-left: 45px;               
+        }
+    
+    .nav {
+    width: 900px;
+    padding: 2px;
+    display: inline-block;
+    margin: 0px;
+    }
+    
+    ul.nav {
+    list-style: none;
+    padding: 10px;
+    }
+    
+    ul.nav li{
+    display: inline;
+    padding: 10px;
+    width: 900px;
+    font-size: 10px;
+    font-weight: 400;
+ 
+    }
+    
+h1 {
+	line-height: 1px;
+    margin-left: -20px;
+    color: red;
+}
+
+h2 {
+	line-height: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 30px;
+    }
+    
+    footer {
+    display: block;
+    width: 900px;
+    padding: 40px;
+    }
     
 }
